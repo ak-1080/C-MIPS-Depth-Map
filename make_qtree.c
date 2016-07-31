@@ -27,7 +27,6 @@ int homogenous(unsigned char *depth_map, int map_width, int x, int y, int sectio
                       
        
     return value;
-
 }
 
 qNode *depth_to_quad(unsigned char *depth_map, int map_width) {
