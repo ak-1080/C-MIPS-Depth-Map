@@ -21,7 +21,6 @@ unsigned char scan (unsigned char* left, unsigned char* right, int im_width,int 
 void locate_feature(  int f_width, int f_height, int x, int y, int*f_x, int*f_y, 
     int im_height, int im_width, int* n_height, int * n_width);
 
-
 /* Implements the normalized displacement function */
 unsigned char normalized_displacement(int dx, int dy,
         int maximum_displacement) {
